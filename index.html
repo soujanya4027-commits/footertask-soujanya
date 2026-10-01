@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apex University | Shaping the Future</title>
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header class="navbar">
+        <div class="logo">
+            <i class="fa-solid fa-graduation-cap"></i> Apex University
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#programs">Programs</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#admissions">Admissions</a></li>
+            </ul>
+        </nav>
+        <a href="#apply" class="btn-apply">Apply Now</a>
+    </header>
+
+    <!-- Banner / Hero Section -->
+    <section id="home" class="hero-banner">
+        <div class="hero-content">
+            <h1>Empowering Future Leaders</h1>
+            <p>Discover world-class education, cutting-edge research, and a vibrant campus community.</p>
+            <a href="#programs" class="btn-hero">Explore Programs</a>
+        </div>
+    </section>
+
+    <!-- 4 Image Cards Section -->
+    <section id="programs" class="cards-container">
+        <h2>Campus Highlights & Programs</h2>
+        <div class="card-grid">
+            
+            <!-- Card 1 -->
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=600&q=80" alt="Engineering & Tech">
+                <div class="card-body">
+                    <h3>Engineering & Tech</h3>
+                    <p>State-of-the-art laboratories and innovative curriculum designed for tech leaders of tomorrow.</p>
+                    <a href="#" class="card-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=600&q=80" alt="Business School">
+                <div class="card-body">
+                    <h3>Business & Management</h3>
+                    <p>Prepare for dynamic global markets with hands-on experience and industry exposure.</p>
+                    <a href="#" class="card-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1541829070764-84a7d30dd3f3?auto=format&fit=crop&w=600&q=80" alt="Campus Life">
+                <div class="card-body">
+                    <h3>Campus Life & Culture</h3>
+                    <p>Experience diverse clubs, athletic events, and creative arts in a vibrant environment.</p>
+                    <a href="#" class="card-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=600&q=80" alt="Library & Research">
+                <div class="card-body">
+                    <h3>Central Library & Research</h3>
+                    <p>Access thousands of journals, digital archives, and quiet study spaces 24/7.</p>
+                    <a href="#" class="card-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Full Footer Section -->
+    <footer class="site-footer">
+        <div class="footer-container">
+            
+            <!-- Column 1: Info & Socials -->
+            <div class="footer-col">
+                <h3><i class="fa-solid fa-graduation-cap"></i> Apex University</h3>
+                <p>Inspiring excellence and innovation in higher education across disciplines.</p>
+                <div class="social-links">
+                    <a href="#" title="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" title="Twitter"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#" title="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+
+            <!-- Column 2: Quick Links -->
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#"><i class="fa-solid fa-chevron-right"></i> Academic Calendar</a></li>
+                    <li><a href="#"><i class="fa-solid fa-chevron-right"></i> Campus Map & Directions</a></li>
+                    <li><a href="#"><i class="fa-solid fa-chevron-right"></i> Student Portal</a></li>
+                    <li><a href="#"><i class="fa-solid fa-chevron-right"></i> Careers & Placements</a></li>
+                    <li><a href="#"><i class="fa-solid fa-chevron-right"></i> Alumni Network</a></li>
+                </ul>
+            </div>
+
+            <!-- Column 3: Rating & Feedback Form -->
+            <div class="footer-col">
+                <h4>Rate Campus Life</h4>
+                <p>Your feedback helps us grow!</p>
+                <form class="rating-form" onsubmit="event.preventDefault();">
+                    <div class="star-rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <input type="text" placeholder="Your Name" required>
+                    <textarea placeholder="Write a short review..." rows="2" required></textarea>
+                    <button type="submit">Submit Feedback</button>
+                </form>
+            </div>
+
+        </div>
+
+        <!-- Copyright Bar -->
+        <div class="footer-bottom">
+            <p>&copy; 2026 Apex University. All rights reserved. | <a href="#">Privacy Policy</a></p>
+        </div>
+    </footer>
+
+</body>
+</html>
